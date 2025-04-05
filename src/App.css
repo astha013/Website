@@ -1,0 +1,43 @@
+/* Global styles
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Headings */
+/* h1, h2, h3, h4, h5 {
+  font-weight: 600;
+}
+
+/* Links */
+/* a {
+  text-decoration: none;
+  color: inherit;
+} */
+
+/* Buttons */
+/* button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+} */
+
+/* Image */
+/* img {
+  max-width: 100%;
+  display: block;
+}  */
