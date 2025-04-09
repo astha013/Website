@@ -10,6 +10,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  
 }
 
 .navbar {
@@ -28,7 +29,7 @@ body {
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 700;
   color: #007bff;
   text-decoration: none;
@@ -37,19 +38,22 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 35px;
+  font-size:25px;
+  
 }
 
 .nav-links li a {
   text-decoration: none;
   color: #000;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   transition: color 0.3s ease;
 }
 
 .nav-links li a:hover {
   color: #0056ff;
+  font-weight: bold;
 }
 
 /* Add active link style if you want */
@@ -85,7 +89,7 @@ body {
     color: white;
     font-size: 16px;
     font-weight: bold;
-    border-radius: 15px;
+    border-radius: 20px;
     cursor: pointer;
     transition: background 0.3s;
   }
