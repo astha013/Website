@@ -20,12 +20,7 @@ const offers = [
       'We cover locations in India and abroad ranging from popular cities to unexplored destinations',
     bg: 'linear-gradient(135deg, #4e54c8, #8f94fb)',
   },
-  {
-    title: 'VIP Travelling',
-    description:
-      'We expertise in Senior Citizens Tour, Luxury Adventures, Educational Tours, VIP Clients and Pilgrimage Yatras',
-    bg: 'linear-gradient(135deg, #2b86c5, #753a88)',
-  },
+  
   {
     title: 'Booking Reconfirmation',
     description:
@@ -60,7 +55,7 @@ const offers = [
   title: 'Government Projects',
   description:
     'We managed government events—like Khelo India,National Games, Swachh Bharat Abhiyan,and the National Youth Festival—with logistics,manpower or planning.',
-  bg: 'linear-gradient(135deg, #007cf0, #00dfd8)',
+  bg: 'linear-gradient(135deg, #2b86c5, #753a88)',
 },
 
 ];
@@ -70,11 +65,11 @@ const OfferSection = () => {
     <section className="our-offers">
       <h2>Our Offers</h2>
       <p>Services we provide</p>
-      <div className="offer-grid">
+      <div className="offers-grid">
         {offers.map((offer, idx) => (
           <div
             key={idx}
-            className="offer-card"
+            className="offers-card"
             style={{ background: offer.bg }}
           >
             <h3>{offer.title}</h3>

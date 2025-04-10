@@ -6,7 +6,7 @@ const AboutHero = () => {
     <section className="about-hero">
       
       <div className="about-overlay">
-      <img className="about" src= "/aboutus.jpeg" alt="Image" />
+      {/* <img className="about" src= "/aboutus.jpeg" alt="Image" /> */}
         <h1>ABOUT US</h1>
         <p>Home &gt; About</p>
       </div>

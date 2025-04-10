@@ -44,9 +44,10 @@
 }
 
 .offer-card h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
-  margin: 0 0 8px;
+  margin: 10px 10px 8px;
+  color: black
 }
 
 .offer-card p {

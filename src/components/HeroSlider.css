@@ -3,7 +3,7 @@
 .hero-slider {
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     overflow: hidden;
   }
   
@@ -12,6 +12,7 @@
     height: 100%;
     object-fit: cover;
     transition: opacity 1s ease-in-out;
+    /* animation: slide 3s infinite; */
   }
   
   .slider-overlay {
@@ -28,6 +29,7 @@
   .book-now-btn {
     background-color: #007bff;
     color: white;
+    margin-top: 150px;
     padding: 14px 28px;
     font-size: 18px;
     font-weight: 600;

@@ -3,9 +3,8 @@ import React, { useEffect, useState } from 'react';
 import './HeroSlider.css';
 
 const images = [
-  '/images/slide1.jpg',
-  '/images/slide2.jpg',
-  '/images/slide3.jpg',
+  '/slide4.jpg',
+  '/slide5.jpg',
 ]; 
 
 const HeroSlider = () => {
@@ -20,7 +19,7 @@ const HeroSlider = () => {
 
   return (
     <section className="hero-slider">
-      <img src="/slide4.jpg" alt="Hero Slide" className="slider-image" />
+      <img src= {images[currentImage]} alt="Hero Slide" className="slider-image" />
       <div className="slider-overlay">
         <button className="book-now-btn">Book Now</button>
       </div>
