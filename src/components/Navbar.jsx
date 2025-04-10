@@ -15,7 +15,7 @@ const Navbar = () => {
         <ul className={`nav-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
-          <li><Link to="/services">Tour Manager</Link></li>
+          <li><Link to="/tourmanager">Tour Manager</Link></li>
           <li><Link to="/career">Career</Link></li>
           <li><Link to="/contact">Contact</Link></li>
           <li><Link to="/blog"><button>Blog</button></Link></li>
