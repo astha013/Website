@@ -61,8 +61,8 @@
     border-radius: 8px;
     border: none;
     font-size: 0.9rem;
-    min-width: 180px;
-    margin-top: 100px;
+    min-width: 90px;
+    margin-top: 90px;
   }
   
   .form-container button {
@@ -172,14 +172,22 @@
   }
   
   /* Responsive Styling */
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 900px) {
+    .hero{
+      height:80vh;
+    }
+    .overlay{
+      height:80vh;
+    }
     .squad-grid {
       flex-direction: column;
       align-items: center;
     }
   
     .member-card {
-      max-width: 90%;
+      max-width: 60%;
     }
   }
+
+  
   
