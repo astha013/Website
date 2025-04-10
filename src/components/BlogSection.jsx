@@ -29,7 +29,7 @@ const BlogSection = () => {
         <div className="blog-card">
           <h3>Blog Title 1</h3>
           <img
-            src="http://localhost:5000/uploads/default1.jpg"
+            src="dowload1.avif"
             alt="blog"
             className="blog-card-img"
           />
@@ -40,7 +40,7 @@ const BlogSection = () => {
         <div className="blog-card">
           <h3>Blog Title 2</h3>
           <img
-            src="http://localhost:5000/uploads/default2.jpg"
+            src="/download (2).jpeg"
             alt="blog"
             className="blog-card-img"
           />
@@ -51,7 +51,7 @@ const BlogSection = () => {
         <div className="blog-card">
           <h3>Blog Title 3</h3>
           <img
-            src="http://localhost:5000/uploads/default3.jpg"
+            src="/download (3).jpeg"
             alt="blog"
             className="blog-card-img"
           />
