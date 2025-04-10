@@ -3,19 +3,19 @@ import './ServicesSection.css';
 
 const services = [
   {
-    image: '/images/mice.jpg',
+    image: 'fotor-ai-2025040918250.jpg',
     title: 'MICE',
     description:
       'Discover the perfect blend of business and pleasure with our exceptional MICE offerings, combining productive meetings, unforgettable travel experiences, and seamless coordination.',
   },
   {
-    image: '/images/medical.jpg',
+    image: 'fotor-ai-20250409182757.jpg',
     title: 'Medical Conference & Convention',
     description:
       'Experience world-class healthcare conferences and conventions in stunning, idyllic destinations, where knowledge, relaxation, and networking seamlessly come together.',
   },
   {
-    image: '/images/sports.jpg',
+    image: 'team-spirit.webp',
     title: 'Sporting Event',
     description:
       'Fuel your passion for sports with exhilarating and immersive experiences at top-notch sporting events, where unforgettable moments and electrifying atmospheres await.',
@@ -44,7 +44,7 @@ const ServicesSection = () => {
         <div className="offer-carousel" ref={carouselRef}>
           {services.map((service, index) => (
             <div className="offer-cardS" key={index}>
-              <img src={service.image} alt={service.title} />
+              <img src={service.image} alt={service.title} className='content-fit'/>
               <h3>{service.title.toUpperCase()}</h3>
               <p>{service.description}</p>
             </div>

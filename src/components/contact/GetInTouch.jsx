@@ -22,9 +22,9 @@ const GetInTouch = () => {
           <h3>Contact Info</h3>
           <div className="location">
             <h4>Saurabh Pandey</h4>
-            <p>📍 Indore</p>
+            <p>📍 Indore,M.P</p>
             <p>📞 +91 9935417773</p>
-            <p>✉️ saurabhpandey@gmail.com</p>
+            <p>✉️ saurabhpandey1801@gmail.com</p>
           </div>
         </div>
       </div>

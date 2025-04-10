@@ -56,6 +56,13 @@ const offers = [
       'We deliver value-for-money tour packages, optimizing logistics without compromising quality or comfort',
     bg: 'linear-gradient(135deg, #007cf0, #00dfd8)',
   },
+{
+  title: 'Government Projects',
+  description:
+    'We managed government events—like Khelo India,National Games, Swachh Bharat Abhiyan,and the National Youth Festival—with logistics,manpower or planning.',
+  bg: 'linear-gradient(135deg, #007cf0, #00dfd8)',
+},
+
 ];
 
 const OfferSection = () => {
