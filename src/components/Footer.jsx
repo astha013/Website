@@ -19,7 +19,7 @@ const Footer = () => {
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About Us</a></li>
-            <li><a href="/tour-manager">Tour Manager</a></li>
+         
             <li><a href="/recommendation">Careers</a></li>
             <li><a href="/contact">Contact</a></li>
           </ul>
@@ -39,7 +39,7 @@ const Footer = () => {
           <ul className="social-links">
             <li><a href="#"><FaFacebookF /></a></li>
             <li><a href="#"><FaTwitter /></a></li>
-            <li><a href="#"><FaInstagram /></a></li>
+            <li><a href="https://www.instagram.com/stag_gers" target="_blank" ><FaInstagram /></a></li>
             <li><a href="#"><FaLinkedinIn /></a></li>
           </ul>
         </div>
