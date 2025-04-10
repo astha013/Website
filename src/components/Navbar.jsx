@@ -1,5 +1,10 @@
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './Navbar.css';
+
+const YourComponent = () => {
+  const navigate = useNavigate();
+}
 
 const Navbar = () => {
   return (
@@ -12,8 +17,7 @@ const Navbar = () => {
           <li><Link to="/services">Tour Manager</Link></li>
           <li><Link to="/apply">Apply</Link></li>
           <li><Link to="/contact">Contact</Link></li>
-          {/* <li><Link to="/blog">Blog</Link></li> */}
-          <button onClick={() => navigate('/blog')}>Blog</button>
+          <li><Link to="/blog"><button>Blog</button></Link></li>
         </ul>
       </div>
     </nav>
