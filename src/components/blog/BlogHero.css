@@ -88,7 +88,7 @@
 }
 
 /* Error state styling */
-.error input,
+ .error input,
 .error textarea {
   border-color: #ff3e3e;
 }
@@ -100,17 +100,17 @@
 }
 
 /* Success message */
-.success-message {
+ .success-message {
   text-align: center;
   color: #00a65a;
   padding: 10px;
   border-radius: 5px;
   background-color: rgba(0, 166, 90, 0.1);
   margin-top: 20px;
-}
+} 
 
 /* Responsive styles */
-@media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
   .blog-form {
     padding: 25px;
     margin: 30px auto;
@@ -152,9 +152,9 @@
     font-size: 0.95rem;
     margin-bottom: 5px;
   }
-}
+} 
 
-/* For very small screens */
+/* For very small screens*/
 @media screen and (max-width: 320px) {
   .blog-form {
     padding: 15px;
@@ -172,9 +172,9 @@
 }
 
 /* For high-density displays */
-@media (-webkit-min-device-pixel-ratio: 2), 
+ @media (-webkit-min-device-pixel-ratio: 2), 
        (min-resolution: 192dpi) {
   .blog-form {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
   }
-}
+}   
