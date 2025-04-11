@@ -1,5 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom'; 
 import './HeroSlider.css';
 
 const images = [
@@ -21,7 +22,9 @@ const HeroSlider = () => {
     <section className="hero-slider">
       <img src= {images[currentImage]} alt="Hero Slide" className="slider-image" />
       <div className="slider-overlay">
-        <button className="book-now-btn">Book Now</button>
+        <Link to="/tourmanager">
+          <button className="book-now-btn">Book Now</button>
+        </Link>
       </div>
     </section>
   );

@@ -1,5 +1,6 @@
 /* Navbar.css */
 
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 * {
@@ -68,7 +69,8 @@ body {
     .navbar {
       padding: 15px 30px;
       flex-direction: column;
-      align-items: flex-start;
+    
+      align-items: right;
     }
   
     .navbar ul {
@@ -113,23 +115,178 @@ body {
   transition: 0.3s;
 }
 
-/* Mobile Styles */
+/* Mobile view */
 @media (max-width: 900px) {
   .nav-links {
     display: none;
-    position: absolute;
-    top: 65px;
-    right: 0.1px;
-    background-color: white;
     flex-direction: column;
-    gap: 15px;
-    padding: 20px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    z-index: 1000;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 0;
+    gap: 20px;
+    align-items: center;
   }
 
   .nav-links.mobile-open {
     display: flex;
+  }
+
+  .close-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: #ffffff;
+  padding: 15px 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  font-size: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #0056ff;
+  font-weight: bold;
+}
+
+/* Add active link style if you want */
+.nav-links li a.active {
+  color: #0056ff;
+  font-weight: 600;
+  position: relative;
+}
+
+.nav-links button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.nav-links button:hover {
+  background-color: #0056b3;
+}
+
+/* Hamburger Icon (Desktop Hidden) */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 4px;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  transition: 0.3s;
+}
+
+/* Hide close icon on desktop */
+.close-icon {
+  display: none;
+}
+
+/* Mobile view */
+@media (max-width: 900px) {
+  .navbar {
+    padding: 16px 30px;
+    flex-direction: column;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 0px;
+  }
+
+  .navbar ul li a {
+    font-size: 1.1rem;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 0;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .nav-links.mobile-open {
+    display: flex;
+  }
+
+  /* Show close icon only in mobile */
+  .close-icon {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
   }
 
   .hamburger {

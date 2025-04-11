@@ -1,77 +1,154 @@
-/* src/pages/Contact.css */
-.contact-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 50px 10%;
-    gap: 40px;
-    background-color: #f9f9f9;
-  }
-  
-  .contact-form-section {
-    flex: 1;
-    min-width: 300px;
-  }
-  
-  .contact-address {
-    flex: 1;
-    min-width: 300px;
-  }
-  
-  .contact-form {
-    display: flex;
+.get-in-touch-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 50px 10%;
+  background-color: #f5f7fa;
+  gap: 40px;
+}
+
+/* Card Style */
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  flex: 1;
+  min-width: 320px;
+}
+
+/* Contact Form Styling */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: border 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Contact Info Styling */
+.contact-info-card h3 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.info-box h4 {
+  font-size: 20px;
+  color: #007bff;
+  margin-bottom: 8px;
+}
+
+.info-box p {
+  font-size: 16px;
+  color: #555;
+  margin: 4px 0;
+}
+
+
+/* Contact Section */
+.career-contact {
+  text-align: center;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.career-contact h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.book-now-btn {
+  background-color: #007bff;
+  color: white;
+  margin-top: 0px;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-now-btn:hover {
+  background-color: #0056d2;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .get-in-touch-container {
     flex-direction: column;
-    gap: 15px;
+    padding: 30px 5%;
+    gap: 30px;
+    align-content: center;
+
   }
-  
-  .name-fields {
-    display: flex;
-    gap: 15px;
+
+  .contact-form h2 {
+    font-size: 20px;
+    width: 500px;
   }
-  
-  .name-fields input {
-    flex: 1;
+
+  .contact-info-card h3 {
+    font-size: 22px;
   }
-  
+
+  .info-box h4 {
+    font-size: 18px;
+    width: 500px;
+
+  }
+
+  .info-box p {
+    font-size: 14px;
+  }
+
   .contact-form input,
   .contact-form textarea {
-    padding: 12px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-  }
-  
-  .contact-form button {
-    background-color: #0066ff;
-    color: white;
-    padding: 12px;
-    font-size: 16px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 0.3s ease;
-  }
-  
-  .contact-form button:hover {
-    background-color: #004fcb;
-  }
-  
-  .contact-address h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .contact-address .location {
-    margin-bottom: 25px;
-  }
-  
-  .contact-address h4 {
-    color: #005eff;
-    margin-bottom: 5px;
-  }
-  
-  .contact-address p {
-    margin: 3px 0;
     font-size: 15px;
-    color: #444;
   }
-  
+
+  .contact-form button {
+    font-size: 15px;
+  }
+}
