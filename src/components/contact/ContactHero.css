@@ -1,44 +1,128 @@
 .contact-hero {
-    position: relative;
-    width: 100%;
-    height: 70vh;
-    background-image: url('/vecteezy_contact-us-concept_1263984.jpg'); /* Replace with your local or online image path */
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  background-image: url('/vecteezy_contact-us-concept_1263984.jpg'); /* Replace with your local or online image path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 450px; /* Ensures minimum height on smaller screens */
+}
+
+.contact-overlay {
+  /* backdrop-filter: blur(4px); Blur the image behind */
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px; /* Add some padding on smaller screens */
+  background-color: rgba(0, 0, 0, 0.4); /* Optional: adds slight darkening overlay */
+}
+
+.contact-overlay h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  animation: fadeUp 1s ease forwards;
+}
+
+.contact-overlay p {
+  font-size: 16px;
+  color: #f0f0f0;
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeUp 1s ease 0.3s forwards;
+  opacity: 0; /* Start invisible for animation */
+}
+
+@keyframes fadeUp {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
   }
-  
-  .contact-overlay {
-    /* backdrop-filter: blur(4px); Blur the image behind */
-    width: 100%;
-    height: 100%;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 1024px) {
+  .contact-hero {
+    height: 60vh;
   }
   
   .contact-overlay h1 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-hero {
+    height: 50vh;
+  }
+  
+  .contact-overlay h1 {
+    font-size: 36px;
   }
   
   .contact-overlay p {
-    font-size: 16px;
-    color: #f0f0f0;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-hero {
+    height: 40vh;
+    min-height: 300px;
   }
   
-  @keyframes fadeUp {
-    0% {
-      transform: translateY(30px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
+  .contact-overlay h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
   }
+  
+  .contact-overlay p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
+
+/* For extra small devices */
+@media screen and (max-width: 320px) {
+  .contact-overlay h1 {
+    font-size: 24px;
+  }
+  
+  .contact-overlay p {
+    font-size: 13px;
+  }
+}
+
+/* For very tall devices like iPhone X */
+@media screen and (min-height: 800px) and (max-width: 500px) {
+  .contact-hero {
+    height: 40vh;
+  }
+}
+
+/* For landscape mode on mobile */
+@media screen and (max-height: 450px) and (orientation: landscape) {
+  .contact-hero {
+    height: 100vh;
+  }
+  
+  .contact-overlay h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .contact-overlay p {
+    font-size: 13px;
+  }
+}
