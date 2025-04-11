@@ -9,14 +9,9 @@ const TourManager = () => {
           <h1>Book Tour Manager</h1>
           <div className="form-container">
             <input type="text" placeholder="Select City, State or Country" />
+            <input type="date"  />
             <input type="date" />
-            {/* <span>→</span> */}
-            <input type="date" />
-            <select>
-              <option value="0">0 Tour Manager</option>
-              <option value="1">1 Tour Manager</option>
-              <option value="2">2 Tour Managers</option>
-            </select>
+            <input type="number" placeholder="Tour Manager Required" />
             <button>Proceed</button>
           </div>
         </div>

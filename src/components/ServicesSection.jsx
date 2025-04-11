@@ -10,7 +10,7 @@ const services = [
     description: 'We provide skilled volunteers, tour managers, and coordinators to support seamless execution of events of all scales.',
   },
   {
-    image: 'fotor-ai-20250409182757.jpg',
+    image: '/olympic.jpg',
     title: 'Sports & Government Events',
     description: 'Expert management services tailored for large-scale events like Khelo India and National Games, ensuring smooth coordination and execution.',
   },
@@ -20,12 +20,12 @@ const services = [
     description: 'Professional staffing solutions for conferences, exhibitions, brand activations, and private organizational events with a focus on efficiency and guest experience.',
   },
   {
-    image: 'fotor-ai-2025040918250.jpg',
+    image: '/travel.jpg',
     title: 'Travel & Logistics Management',
     description: 'Comprehensive travel and accommodation handling for participants, officials, and guests, managed by experienced tour managers.',
   },
   {
-    image: 'fotor-ai-2025040918250.jpg',
+    image: '/Solution.jpg',
     title: 'On-Demand Custom Solutions',
     description: 'Flexible and customizable event solutions to match unique requirements, with quick response and specialized teams.',
   },
