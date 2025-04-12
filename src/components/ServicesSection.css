@@ -95,7 +95,7 @@
 .offer-card h3 {
   font-size: 20px;
   font-weight: bold;
-  margin: 20px 20px 10px;
+  margin: 15px 15px 10px;
   color: #333;
   position: relative;
 }
@@ -148,7 +148,7 @@
 
 @media (max-width: 768px) {
   .offer-carousel {
-    width: 320px;
+    width: 700px;
   }
   
   .offer-section {
@@ -157,5 +157,8 @@
   
   .offer-header h2 {
     font-size: 28px;
+  }
+  .offer-carousel p {
+    font-size: 13px;
   }
 }

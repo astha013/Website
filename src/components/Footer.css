@@ -8,8 +8,8 @@
   .footer-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 40px;
+    justify-content:flex-start;
+    gap: 30px;
   }
   
   .footer-column {
@@ -75,4 +75,10 @@
     border-top: 1px solid #333;
   }
   
-  
+  @media screen and (min-width: 768px){
+    .footer-content{
+      display:flex;
+      flex-direction:row;
+      flex-wrap: wrap;
+    }
+  }

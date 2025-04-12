@@ -8,7 +8,7 @@ const Blog = () => {
     <>
       <BlogHero />
       <BlogSection />
-      <BlogForm />
+      {/* <BlogForm /> */}
       <Footer />
     </>
   );

@@ -44,7 +44,7 @@ const fallbackImages = [
 const BlogSection = () => {
   return (
     <section className="blog-section">
-      <div className="container">
+      <div className="containers">
         <div className="section-header">
           <div className="header-content">
             <h2 className="section-title">Latest Insights</h2>
