@@ -9,7 +9,7 @@ const AboutSection = () => {
   return (
     <section className="about-section">
       <div className="about-img">
-        <img src= "/images.jfif" alt="Image" />
+        <img src= "/ChatGPT Image Apr 12, 2025, 02_42_29 PM.png" alt="Image" />
       </div>
       <div className="about-content">
         <h2>About Us</h2>

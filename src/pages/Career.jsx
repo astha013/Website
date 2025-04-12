@@ -41,7 +41,7 @@ const Career = () => {
       title: 'Customer Service Representative',
       location: 'Remote',
       type: 'Full-time',
-      description: 'Join our team as a Customer Service Representative to provide exceptional support to our clients before, during, and after their tours.',
+      description: 'Join our team to provide exceptional support to our clients before, during, and after their tours.',
       responsibilities: [
         'Answer customer inquiries via phone, email, and chat',
         'Assist with booking procedures and provide information about our services',

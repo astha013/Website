@@ -1,71 +1,219 @@
+/* Blog Section Styles */
 .blog-section {
-  padding: 50px 20px;
+  padding: 60px 0;
   background-color: #f9f9f9;
-  text-align: center;
-  
+  position: relative;
 }
 
-.blog-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-  color: #333;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-.blog-cards {
+/* Header Styles */
+.section-header {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.header-content {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
   justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #222;
+  margin: 0;
+  position: relative;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 10px;
+  max-width: 500px;
+}
+
+/* Blog Cards Grid */
+.blog-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* Blog Card Styles */
 .blog-card {
   background: #fff;
-  padding: 25px;
-  width: 300px;
-  height: 450px;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .blog-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Image Container */
+.blog-card-image-container {
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+}
+
+.blog-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.blog-card:hover .blog-card-img {
+  transform: scale(1.05);
+}
+
+/* Date Badge */
+.blog-date {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #4353ff;
+  color: white;
+  padding: 5px 12px;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+/* Content Area */
+.blog-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .blog-card h3 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  font-weight: 700;
   color: #222;
+  margin: 0 0 12px 0;
+  line-height: 1.4;
 }
 
 .blog-card p {
   color: #555;
   font-size: 0.95rem;
-  margin-top: 10px;
+  line-height: 1.6;
+  margin: 0 0 15px 0;
+  flex-grow: 1;
 }
-.blog-card-img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 8px;
+
+/* Footer Actions */
+.blog-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 15px;
 }
+
+.read-more {
+  text-decoration: none;
+  color: #4353ff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: opacity 0.3s;
+}
+
+.read-more:hover {
+  opacity: 0.8;
+}
+
 .delete-btn {
-  margin-top: 10px;
   padding: 6px 12px;
-  background-color: #2d37f2;
+  background-color: #4353ff;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
+  font-size: 0.85rem;
+  transition: background-color 0.3s;
 }
 
 .delete-btn:hover {
-  background-color: #000eccb2;
+  background-color: #3242e6;
 }
-@media screen and (max-width: 900px) {
-  .blog-card{
+
+/* Responsive Layouts */
+@media screen and (max-width: 1024px) {
+  .blog-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog-section {
+    padding: 40px 0;
+  }
+  
+  .section-header {
+    text-align: center;
+  }
+  
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .section-subtitle {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .blog-cards {
+    grid-template-columns: 1fr;
+    max-width: 400px;
     margin: 0 auto;
   }
-
-}
   
+  .blog-card {
+    max-width: 100%;
+  }
+}
+
+/* Extra small devices */
+@media screen and (max-width: 480px) {
+  .blog-cards {
+    max-width: 320px;
+  }
+  
+  .blog-card-image-container {
+    height: 160px;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .blog-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
