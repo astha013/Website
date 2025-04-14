@@ -54,7 +54,7 @@ const offers = [
 {
   title: 'Government Projects',
   description:
-    'We managed government events—like Khelo India,National Games, Swachh Bharat Abhiyan,and the National Youth Festival—with logistics,manpower or planning.',
+    'We managed government events—like Khelo India,National Games—with logistics,manpower or planning.',
   bg: 'linear-gradient(135deg, #2b86c5, #753a88)',
 },
 

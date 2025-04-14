@@ -6,22 +6,22 @@ const cardWidth = 320; // card width including margin
 const services = [
   {
     image: 'fotor-ai-2025040918250.jpg',
-    title: 'Event Staffing',
+    title: 'Corporate & Private Events',
     description: 'We provide skilled volunteers, tour managers, and coordinators to support seamless execution of events of all scales.',
   },
   {
     image: '/fotor-ai-20250409182757.jpg',
     title: 'Business Conferences',
-    description: 'Expert management services tailored for high-profile business summits and medical conferences, ensuring seamless coordination and impactful experiences.'
+    description: 'Expert management services for high-profile business summits and medical conferences, ensuring seamless coordination and experiences.'
   },
   {
     image: 'team-spirit.webp',
-    title: 'Corporate & Private Events',
-    description: 'Professional staffing solutions for conferences, exhibitions, brand activations, and private organizational events with a focus on efficiency and guest experience.',
+    title: 'Government Events',
+    description: 'Professional staffing solutions for conferences, exhibitions , national events and private organizational events with a focus on efficiency and guest experience.',
   },
   {
     image: '/travel.jpg',
-    title: 'Travel & Logistics Management',
+    title: 'Tour Management',
     description: 'Comprehensive travel and accommodation handling for participants, officials, and guests, managed by experienced tour managers.',
   },
   {
