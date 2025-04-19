@@ -65,6 +65,7 @@
 @media screen and (max-width: 768px) {
   .contact-hero {
     height: 50vh;
+    width: 100%;
   }
   
   .contact-overlay h1 {
@@ -80,6 +81,7 @@
   .contact-hero {
     height: 40vh;
     min-height: 300px;
+    width: 100%;
   }
   
   .contact-overlay h1 {

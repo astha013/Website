@@ -475,6 +475,19 @@
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
+  body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .career-container {
+      width: 100%;
+      padding: 0 15px;
+      box-sizing: border-box;
+  }
+  
   .career-hero {
     padding: 40px 20px;
   }

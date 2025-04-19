@@ -117,16 +117,27 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .get-in-touch-container {
+    display: flex;
     flex-direction: column;
-    padding: 30px 5%;
+    padding: 16px ;
+    margin: 50px;
+    margin-left: 20px;
     gap: 30px;
     align-content: center;
+    justify-content: center;
+    width: 600px ; 
 
   }
+  .card contact-form-card{
+    padding: 16px;
+    width:100%;
+  }
+  
 
   .contact-form h2 {
     font-size: 20px;
-    width: 500px;
+    width: 550px;
+    padding:16px;
   }
 
   .contact-info-card h3 {
@@ -135,7 +146,7 @@
 
   .info-box h4 {
     font-size: 18px;
-    width: 500px;
+    width: 550px;
 
   }
 
@@ -150,5 +161,10 @@
 
   .contact-form button {
     font-size: 15px;
+  }
+  .career-contact{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
   }
 }

@@ -5,7 +5,6 @@ import Home from './pages/Home'
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
-import TourManager from './components/TourManager';
 import TourManagerPage from './pages/TourManager';
 import Career from './pages/Career';
 

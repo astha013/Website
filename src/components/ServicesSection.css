@@ -149,7 +149,7 @@
 
 @media (max-width: 768px) {
   .offer-carousel {
-    width: 300px; /* Show 1 card on small screens */
+    width: 650px; /* Show 1 card on small screens */
   }
   
   .offer-section {
