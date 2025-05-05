@@ -1,4 +1,5 @@
 import React from 'react'
+import ApiComponent from "./api";
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
@@ -13,13 +14,17 @@ const App = () => {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+      <Route path="/" element={
+          <>
+            <ApiComponent />
+            <Home />
+          </>
+        } />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/career" element={<Career />} />
         <Route path="/tourmanager" element={<TourManagerPage />} />
-
       </Routes>
     </>
   )
