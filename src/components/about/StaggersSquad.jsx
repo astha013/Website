@@ -3,23 +3,23 @@ import './StaggersSquad.css';
 
 const squadMembers = [
   {
-    name: 'Lorem Ipsum',
-    role: 'Web Developer',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel risus id nisi.',
-    image: '/images/squad1.jpg'
+    name: 'Saurabh Pandey',
+    role: '',
+    description: 'I am a committed Core Team Member at an event management company with hands-on experience in coordinating large-scale national events. I have led the deployment of trained volunteers and tour managers, ensuring efficient on-ground execution and seamless event flow. My strengths lie in managing logistics, handling high-pressure situations, and delivering smooth and professional event experiences.',
+    image: '/profileicon.jpg'
   },
   {
-    name: 'Lorem Ipsum',
-    role: 'Web Developer',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dignissim lacus.',
-    image: '/images/squad2.jpg'
+    name: 'Saurabh Pandey',
+    role: '',
+    description: 'I am a committed Core Team Member at an event management company with hands-on experience in coordinating large-scale national events. I have led the deployment of trained volunteers and tour managers, ensuring efficient on-ground execution and seamless event flow. My strengths lie in managing logistics, handling high-pressure situations, and delivering smooth and professional event experiences.',
+    image: '/profileicon.jpg'
   },
-  {
-    name: 'Lorem Ipsum',
-    role: 'Web Developer',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed mi vitae erat.',
-    image: '/images/squad3.jpg'
-  }
+  // {
+  //   name: 'Lorem Ipsum',
+  //   role: '',
+  //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed mi vitae erat.',
+  //   image: '/profileicon.jpg'
+  // }
 ];
 
 const StaggersSquad = () => {

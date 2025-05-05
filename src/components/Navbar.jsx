@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="container">
-        <Link to="/" className="logo">sTaggers</Link>
+        <Link to="/" className="logo"><img src="/Logo.png" alt="logo" className="logoimg"></img></Link>
 
         <ul className={`nav-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
           {/* Close icon for mobile */}

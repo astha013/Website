@@ -22,7 +22,7 @@ const TourManager = () => {
   <div className="squad-grid">
     <div className="member-card">
       <span className="rating">★ 4.9/5</span>
-      <img src="/your_image_path_1.jpg" alt="lorem" className="member-image" />
+      <img src="/profileicon.jpg" alt="lorem" className="member-image" />
       <h3 className="member-name">lorem</h3>
       <p className="member-role">Tour Manager</p>
       <p className="experience"><i className="fa-regular fa-clock"></i> 7+ Years of Experience</p>
@@ -35,7 +35,7 @@ const TourManager = () => {
 
     <div className="member-card">
       <span className="rating">★ 4.9/5</span>
-      <img src="/your_image_path_2.jpg" alt="lorem" className="member-image" />
+      <img src="/profileicon.jpg" alt="lorem" className="member-image" />
       <h3 className="member-name">lorem</h3>
       <p className="member-role">Tour Manager</p>
       <p className="experience"><i className="fa-regular fa-clock"></i> 7+ Years of Experience</p>
@@ -48,7 +48,7 @@ const TourManager = () => {
 
     <div className="member-card">
       <span className="rating">★ 4.9/5</span>
-      <img src="/your_image_path_3.jpg" alt="lorem" className="member-image" />
+      <img src="/profileicon.jpg" alt="lorem" className="member-image" />
       <h3 className="member-name">lorem</h3>
       <p className="member-role">Tour Manager</p>
       <p className="experience"><i className="fa-regular fa-clock"></i> 7+ Years of Experience</p>
