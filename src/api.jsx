@@ -3,7 +3,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 
 const API = axios.create({
-  baseURL: process.env.REACT_APP_API,
+  baseURL: import.meta.env.VITE_API,
 });
 
 function ApiComponent() {
@@ -15,12 +15,11 @@ function ApiComponent() {
       .catch((err) => console.error(err));
   }, []);
 
-  return (
-    <div>
-      <h2>Users:</h2>
-      <pre>{JSON.stringify(data, null, 2)}</pre>
-    </div>
-  );
+  // return null;(
+  //   <>
+  //     <pre>{JSON.stringify(data, null, 2)}</pre>
+  //   </>
+  // );
 }
 
 export default ApiComponent;
