@@ -9,8 +9,8 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-column">
           <h2 className="footer-logo">sTaggers</h2>
-          <p><FaMapMarkerAlt className="icon" /> Indore,Madhya Pradesh</p>
-          <p><FaPhoneAlt className="icon" /> +91 9935417773</p>
+          <p><FaMapMarkerAlt className="icon" /> Bhopal,Madhya Pradesh</p>
+          <p><FaPhoneAlt className="icon" /> +91 xxxxxxxxxxx</p>
           <p><FaEnvelope className="icon" /> np643541@gmail.com</p>
         </div>
 
