@@ -21,10 +21,10 @@ const GetInTouch = () => {
       <div className="card contact-info-card">
         <h3>Contact Info</h3>
         <div className="info-box">
-          <h4>Saurabh Pandey</h4>
-          <p>📍 Indore, M.P</p>
-          <p>📞 +91 9935417773</p>
-          <p>✉️ saurabhpandey1801@gmail.com</p>
+          <h4>Full Name</h4>
+          <p>📍 Bhopal, M.P</p>
+          <p>📞 +91 xxxxxxxxxx</p>
+          <p>✉️ abc123@gmail.com</p>
         </div>
       </div>
       <div className="career-contact">
