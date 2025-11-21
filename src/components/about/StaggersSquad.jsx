@@ -9,7 +9,7 @@ const squadMembers = [
     image: '/profileicon.jpg'
   },
   {
-    name: 'Saurabh Pandey',
+    name: 'Full Name',
     role: '',
     description: 'I am a committed Core Team Member at an event management company with hands-on experience in coordinating large-scale national events. I have led the deployment of trained volunteers and tour managers, ensuring efficient on-ground execution and seamless event flow. My strengths lie in managing logistics, handling high-pressure situations, and delivering smooth and professional event experiences.',
     image: '/profileicon.jpg'
